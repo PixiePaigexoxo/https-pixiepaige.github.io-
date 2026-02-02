@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pixie Paige ✨ | Links</title>
+  <style>
+    body {
+      font-family: 'Poppins', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: radial-gradient(circle at top, #2b0a3d, #0b0211);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .container {
+      width: 100%;
+      max-width: 420px;
+      padding: 26px;
+      text-align: center;
+      backdrop-filter: blur(6px);
+    }
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 14px;
+      border: 3px solid rgba(255, 105, 180, 0.5);
+      box-shadow: 0 0 25px rgba(255,105,180,0.45);
+    }
+    h1 {
+      margin: 10px 0 6px;
+      font-size: 2rem;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+    .sparkle {
+      color: #ffb3ff;
+    }
+    p {
+      margin: 0 0 26px;
+      color: #e2c6ff;
+      font-size: 0.95rem;
+    }
+    a.button {
+      display: block;
+      background: linear-gradient(135deg, #ff5fd2, #c77dff);
+      color: #120016;
+      text-decoration: none;
+      padding: 15px;
+      border-radius: 18px;
+      font-weight: 700;
+      margin: 14px 0;
+      box-shadow: 0 10px 25px rgba(199,125,255,0.35);
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    a.button:hover {
+      transform: translateY(-3px) scale(1.01);
+      box-shadow: 0 16px 35px rgba(255,95,210,0.5);
+    }
+    footer {
+      margin-top: 30px;
+      font-size: 0.75rem;
+      color: #8c6aa8;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Replace src with your photo -->
+    <!-- <img class="avatar" src="profile.jpg" alt="Pixie Paige" /> -->
+
+    <h1>Pixie Paige <span class="sparkle">✨</span></h1>
+    <p>sweet • magical • a little naughty 🧚‍♀️</p>
+
+    <a class="button" href="#" target="_blank">💖 OnlyFans</a>
+    <a class="button" href="#" target="_blank">🐦 Twitter / X</a>
+    <a class="button" href="#" target="_blank">📸 Instagram</a>
+    <a class="button" href="#" target="_blank">✨ VIP / Custom Content</a>
+
+    <footer>
+      © 2026 Pixie Paige
+    </footer>
+  </div>
+</body>
+</html>
